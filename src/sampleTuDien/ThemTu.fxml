@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="463.0" prefWidth="774.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sampleTuDien.ThemTu">
+   <children>
+      <Label layoutX="41.0" layoutY="51.0" prefHeight="57.0" prefWidth="217.0" text="Thêm từ tiếng Anh">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label layoutX="41.0" layoutY="223.0" prefHeight="57.0" prefWidth="226.0" text="Thêm nghĩa của từ đó">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <TextField fx:id="addWord" alignment="CENTER" layoutX="296.0" layoutY="59.0" prefHeight="57.0" prefWidth="396.0">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <TextField fx:id="addMeanWord" alignment="CENTER" layoutX="296.0" layoutY="223.0" prefHeight="57.0" prefWidth="396.0">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <Button layoutX="317.0" layoutY="370.0" mnemonicParsing="false" onAction="#OK" prefHeight="57.0" prefWidth="140.0" text="OK">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
